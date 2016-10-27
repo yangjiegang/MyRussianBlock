@@ -1,0 +1,33 @@
+.container {
+    position: relative;
+    margin: 0 auto;
+    width: 50%;
+    height: 600px;
+    border: 2px solid grey;
+}
+
+.container>div {
+    width: 25px;
+    height: 25px;
+    border: 1px solid black;
+}
+
+.plaint {
+    background-color: white;
+    position: absolute;
+}
+
+.active {
+    background-color: red;
+    position: absolute;
+}
+
+.fixed {
+    background-color: #999;
+    position: absolute;
+}
+
+div.pannel {
+    position: absolute;
+    margin: 10px 0 10px 400px;
+}
